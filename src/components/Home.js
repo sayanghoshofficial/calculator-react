@@ -28,9 +28,13 @@ const allClear = () =>{
   };
   const calculate = () => {
     try {
+      
       setInput(eval(input).toString());
     } catch (err) {
       setInput("Error");
+      setTimeout(() => {
+        setInput("");
+      }, 1000);
     }
   };
   //   return function for home elements
