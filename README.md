@@ -1,4 +1,4 @@
-### Hosting page 
+# Create React  Calculator App 
 This is the [React Calculator](https://sayanghoshofficial.github.io/calculator-react)
 
 # Getting Started with Create React App
