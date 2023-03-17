@@ -12,7 +12,7 @@ const Home = () => {
   // handled every button on click action
   const haldledButtonOnClick = (value) => {
    if(value === "%"){
-        setInput(input/100+"*");
+        setInput(input+"/100*");
     }
     else {
       setInput(input + value);

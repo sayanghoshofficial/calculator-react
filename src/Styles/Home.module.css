@@ -1,8 +1,9 @@
 /* Style for cointaner */
 .calculatorContainer {
   width: 450px;
-  height: 700px;
+  height: 60%;
   margin-top: 10px;
+  padding-bottom: 5px;
   border-radius: 18px;
   margin-left: auto;
   margin-right: auto;
@@ -13,7 +14,7 @@
 /* style for input box */
 .input {
   width: 430px;
-  height: 150px;
+  height: 130px;
   margin: auto;
   padding-right: 10px;
   padding-left: 10px;
@@ -36,8 +37,8 @@
 }
 /* style for every button */
 .calculatorContainer button {
-  width: 98px;
-  height: 98px;
+  width: 91px;
+  height: 91px;
   font-size: 40px;
   border-radius: 50px;
   margin-top: 10px;
