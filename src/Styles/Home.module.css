@@ -2,7 +2,7 @@
 .calculatorContainer {
   width: 450px;
   height: 60%;
-  margin-top: 10px;
+  margin-top: 40px;
   padding-bottom: 5px;
   border-radius: 18px;
   margin-left: auto;
@@ -13,7 +13,7 @@
 }
 /* style for input box */
 .input {
-  width: 430px;
+  width: 431px;
   height: 130px;
   margin: auto;
   padding-right: 10px;
@@ -27,6 +27,7 @@
   letter-spacing: 1px;
   border: none;
   outline: none;
+  box-shadow: 1px 5px 5px -1px;
 }
 /* style for button div */
 .btnDiv {
@@ -55,7 +56,7 @@
 }
 /* set size of equal button */
 .calculatorContainer .btnEqual {
-  width: 196px;
+  width: 182px;
 }
 
 /* set color of action button */
