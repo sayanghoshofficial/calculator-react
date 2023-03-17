@@ -1,23 +1,28 @@
+// import useState
 import { useState } from "react";
+// import style from module styling
 import Styles from "../Styles/Home.module.css";
+// import cx for concatinates class names
 import cx from "classnames";
 
 const Home = () => {
+  // create useState constant for input value
   const [input, setInput] = useState("");
-  const [result, setResult] = useState();
 
-  const evaluateExpression = (expression) => {
-    if (expression === "+") {
-      setResult();
-    }
-  };
+  // handled every button on click action
   const haldledButtonOnClick = (value) => {
-    if (value === "AC") {
-      setInput("");
-    } else {
+   if(value === "%"){
+        setInput(input/100+"*");
+    }
+    else {
       setInput(input + value);
     }
   };
+//   clear input box
+const allClear = () =>{
+    setInput("");
+}
+  //   use backspace for one by one element remove
   const backSpace = () => {
     setInput(input.slice(0, -1));
   };
@@ -28,17 +33,18 @@ const Home = () => {
       setInput("Error");
     }
   };
+  //   return function for home elements
   return (
     <div className={Styles.calculatorContainer}>
       <input
         className={Styles.input}
         type="text"
         value={input}
-        onChange={(e) => setResult(e.target.value)}
+        onChange={(e) => e.target.value}
       />
       <div className={Styles.btnDiv}>
         <button
-          onClick={() => haldledButtonOnClick("AC")}
+          onClick={allClear}
           className={Styles.btnAction}
         >
           AC

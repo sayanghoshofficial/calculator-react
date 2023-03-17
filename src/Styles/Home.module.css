@@ -1,6 +1,7 @@
+/* Style for cointaner */
 .calculatorContainer {
   width: 450px;
-  height: 725px;
+  height: 700px;
   margin-top: 10px;
   border-radius: 18px;
   margin-left: auto;
@@ -9,6 +10,7 @@
   -webkit-box-reflect: below 0px
     linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
+/* style for input box */
 .input {
   width: 430px;
   height: 150px;
@@ -25,12 +27,14 @@
   border: none;
   outline: none;
 }
-.btnDiv{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/* style for button div */
+.btnDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+/* style for every button */
 .calculatorContainer button {
   width: 98px;
   height: 98px;
@@ -42,17 +46,19 @@
   cursor: pointer;
   box-shadow: -1px 2px 9px -1px;
 }
+/* style for active working button */
 .calculatorContainer button:active {
-    background-color: #374353;
-    box-shadow: 0 5px #666;
-   transform: translateY(4px);
-  
-  }
+  background-color: #374353;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* set size of equal button */
 .calculatorContainer .btnEqual {
   width: 196px;
 }
 
+/* set color of action button */
 .calculatorContainer .btnAction {
-  background-color:#051364;
+  background-color: #051364;
   color: white;
 }
