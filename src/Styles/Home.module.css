@@ -1,0 +1,29 @@
+.calculatorContainer{
+    width: 393px;
+    height: 594px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a4a4a4;
+}
+.input{
+    width: 99%;
+    height: 100px;
+    background-color: #4c4c4c;
+    border: none;
+    outline: none;
+}
+.calculatorContainer button{
+    width: 98px;
+    height: 98px;
+    font-size: 40px;
+    background-color: #d6d6d6;
+}
+.calculatorContainer .btnZero{
+    width: 196px;
+}
+
+.calculatorContainer .btnAction{
+    background-color: #f79231;
+    color: white;
+}
